@@ -7,7 +7,7 @@ Its a Multi player game.
 * Both player cannot move turns if the result is display
 
 # Features:
-* You can select player
+* Select player
 * Display result
 * Play again button
 
