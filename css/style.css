@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: lightgray;
+    text-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+button{
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+    border: none;
+    background-color: slategrey;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+h1{
+    margin-top: 0;
+}
+#res{
+    color: red;
+}
+button#restart{
+    border: none;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    background: white;
+    color: black;
+    margin: 0 auto;
+    box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+button#restart:hover{
+    color: white;
+    background-color: black;
+}
+.dashboard{
+    display: inherit;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-evenly;
+}
+#game_body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2px;
+    background: black;
+}
+.cross,.circle{
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+#select_player .cross:hover{
+    color: rgba(0, 0, 255, 0.7);
+    cursor: pointer;
+}
+#select_player .circle:hover{
+    color: rgba(255, 0, 55, 0.7);
+    cursor: pointer;
+}
+#select_player i{
+    font-size: 6rem;
+    padding: 0 .6rem;
+}
