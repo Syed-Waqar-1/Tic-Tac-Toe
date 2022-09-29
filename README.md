@@ -2,7 +2,7 @@
 
 Its a Multi player game.
 
-* [tic-tac-toe-multi-player.netlify.app](tic-tac-toe-multi-player.netlify.app)
+* [tic-tac-toe-multi-player.netlify.app](https://tic-tac-toe-multi-player.netlify.app)
 
 # Rules:
 * You cannot start the game unless you choose a player
